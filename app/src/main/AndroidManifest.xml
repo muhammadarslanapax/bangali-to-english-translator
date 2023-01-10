@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.language.bangalitoenglish">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE "/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UrduToEnglishTranslator"
+        tools:targetApi="31">
+
+        <meta-data android:name="applovin.sdk.key"
+            android:value="pMfD77R29fZ_6GDzSbPVHb2pIH5TUZET79u0PbOw1RLNlbw48PgbirEUO0nnsgeTM1aK2JNUN0bdsueRBLUeJV"/>
+
+
+        <activity
+            android:name="com.language.bangalitoenglish.Setting.Setting"
+            android:exported="false"
+            android:label="Setting"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.language.bangalitoenglish.Text_Translation"
+            android:exported="false"
+            android:label="Text Translation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.language.bangalitoenglish.VoiceInput.Voice_Translation"
+            android:exported="false"
+            android:label="Voice Translation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.language.bangalitoenglish.Main_Activity"
+            android:exported="false"
+            android:label="Persian to English"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.language.bangalitoenglish.Splash_Screen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="ocr" />
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "251744859058",
+    "project_id": "languages-e1e56",
+    "storage_bucket": "languages-e1e56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251744859058:android:b2a6d1c40f49107e3a6aab",
+        "android_client_info": {
+          "package_name": "com.language.bangalitoenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251744859058-13lm2lpqtkvbob8u4bbfia8mh0hag9hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzkkqXaGT955PvW_3YUqWECQIyEdSEDRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251744859058-13lm2lpqtkvbob8u4bbfia8mh0hag9hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
